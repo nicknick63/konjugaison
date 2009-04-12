@@ -1,9 +1,8 @@
 #include "konjugaison.h"
 
-Konjugaison::Konjugaison(QWidget *parent)
-    : QMainWindow(parent)
+Konjugaison::Konjugaison()
 {
-	ui.setupUi(this);
+
 }
 
 Konjugaison::~Konjugaison()

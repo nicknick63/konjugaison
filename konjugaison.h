@@ -1,19 +1,19 @@
 #ifndef KONJUGAISON_H
 #define KONJUGAISON_H
 
-#include <QtGui/QMainWindow>
-#include "ui_konjugaison.h"
+#include <QtGui>
 
-class Konjugaison : public QMainWindow
+class Konjugaison : public QWidget
 {
     Q_OBJECT
 
 public:
-    Konjugaison(QWidget *parent = 0);
+    Konjugaison();
     ~Konjugaison();
 
 private:
-    Ui::KonjugaisonClass ui;
+
+
 };
 
 #endif // KONJUGAISON_H
